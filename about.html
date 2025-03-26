@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | About</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="loader.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="preloader">
+        <div id="loader">
+            <div id="loader-text"></div>
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">&lt;Sachin/&gt;</a>
+            </div>
+            <!-- <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+            </div> -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+          
+        </div>
+    </header>
+
+    <main>
+        <section class="about-hero">
+            <div class="container">
+                <h1 class="page-title">About Me</h1>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="New folder/profile-pic (9).png" alt="John Doe">
+                    </div>
+                    <div class="about-text">
+                        <h2>Who I Am</h2>
+<p>Hi, I’m Sachin Poudel, a passionate Computer Science enthusiast from the beautiful, remote
+    village of Ilam, Nepal. My journey in technology began when I enrolled in +2 Science at Devi
+    Ma.Vi Birtamod, where I first discovered the fascinating world of computer science and
+    programming. Balancing my studies and curiosity, I managed to learn the basics of web
+    development during my time in Class 12.</p>   
+    <span id="more-text" style="display: none;">
+        Currently, I’m pursuing a B.Sc. CSIT degree at Tribhuvan University, delving deeper into the
+        realms of programming, web development, and emerging technologies. While I may not have a
+        solid
+        professional skill set yet, I’ve built a foundation in HTML, CSS, and JavaScript and am
+        actively
+        working on personal projects to enhance my technical capabilities.<br>
+        Beyond coding, I enjoy staying updated on the latest tech trends, innovations in AI, and
+        advancements by global leaders like Samsung and Apple. .<br>
+
+        As I continue to grow in this field, I aim to combine my technical knowledge and creativity
+        to
+        make meaningful contributions to the world of technology.<br>
+
+        Let’s connect and explore this exciting journey together! 🚀</span>
+
+    <button class="btn secondary" onclick="toggleReadMore()">Read More</button>
+ 
+                        <h3>My Education</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>2081-Now</h4>
+                                    <p>Pursuing BSC.Csit at TU</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>2079-2080</h4>
+                                    <p>+2 science at Devi Sec.
+                                        School,Btm-Jhapa</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>2066-2078</h4>
+                                    <p>Schooling(Nursury-10) at
+                                        Ilam Shuva Kanya English School.</p>
+                                </div>
+                            </div>
+                          
+                        </div>
+                        
+                        <div class="cta-buttons">
+                            <a href="contact.html" class="btn primary">Get in Touch</a>
+                            <a href="sachinpoudel.pdf" download  class="btn secondary">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Portfolio</h3>
+                    <p>Creating digital experiences that make a difference.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="https://github.com/sachinpoudel"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sachin-poudel-16029a315/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/sachin.poudel.90813"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/s4chin_paudel/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sachin Poudel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+<script>  function toggleReadMore() {
+    const moreText = document.getElementById("more-text");
+    const btnText = document.getElementById("read-more-btn");
+
+    if (moreText.style.display === "none") {
+        moreText.style.display = "inline";
+        btnText.textContent = "Read Less";
+    } else {
+        moreText.style.display = "none";
+        btnText.textContent = "Read More";
+    }
+}</script>
+    <script src="js/script.js"></script>
+    <script src="loader.js"></script>
+</body>
+</html>
+
