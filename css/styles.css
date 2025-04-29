@@ -728,6 +728,12 @@ footer {
   .contact-grid {
     grid-template-columns: 1fr;
   }
+   .contact-form-container{
+    display: none;
+  }
+  .footer-content{
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
