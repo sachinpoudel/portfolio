@@ -71,7 +71,7 @@ function App() {
           <div className="space-y-8">
             <div>
               <h3 className="text-base font-normal mb-2">
-                <a href="https://a-full-stack-blog-app1.onrender.com" className="underline hover:no-underline font-bold">
+                <a href="https://a-full-stack-blog-app.onrender.com" className="underline hover:no-underline font-bold">
                  A Blog App
                 </a>
               </h3>
