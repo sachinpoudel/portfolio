@@ -99,20 +99,19 @@ function App() {
               </p>
             </div>
 
-            {/* <div>
+            <div>
               <h3 className="text-base font-normal mb-2">
-                <a href="#" className="underline hover:no-underline font-bold">
-                  Weather App
+                <a href="https://github.com/sachinpoudel/Intermediate_Ecommerce_Backend" className="underline hover:no-underline font-bold">
+                Intermediate Ecommmerce Backend
                 </a>
               </h3>
               <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">
-                React, OpenWeather API
+               TypeScript NodeJs ExpressJs Postgres and Prisma ORM
               </p>
               <p className="text-sm">
-                Clean weather application with location-based forecasts 
-                and detailed weather data visualization.
+               A Intermediate level ecommerce backend with crud , Advanced Error handling and best Practices.
               </p>
-            </div> */}
+            </div>
 
             {/* <div>
               <h3 className="text-base font-normal mb-2">
